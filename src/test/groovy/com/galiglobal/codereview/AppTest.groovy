@@ -3,7 +3,7 @@ package com.galiglobal.codereview
 import spock.lang.Specification
 
 class AppTest extends Specification {
-    def "application has a greeting"() {
+    def "application has the correct greeting"() {
         setup:
         def app = new App()
 
